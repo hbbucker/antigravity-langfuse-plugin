@@ -1,0 +1,12 @@
+{
+  "langfuse-tracer": {
+    "enabled": true,
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node scripts/run_tracer.mjs",
+        "timeout": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "antigravity-langfuse-plugin",
+  "version": "1.0.0",
+  "description": "Cross-platform Langfuse Observability & Feature-based Tracing for Antigravity CLI and StartupOS",
+  "type": "module",
+  "main": "scripts/run_tracer.mjs",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "status": "node scripts/setup.mjs --status",
+    "test": "node --check scripts/run_tracer.mjs && node --check scripts/setup.mjs"
+  },
+  "keywords": [
+    "antigravity",
+    "startupos",
+    "langfuse",
+    "observability",
+    "tracing",
+    "ai-agents",
+    "telemetry"
+  ],
+  "author": "Antigravity Team",
+  "license": "MIT"
+}

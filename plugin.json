@@ -1,0 +1,15 @@
+{
+  "name": "langfuse",
+  "version": "1.0.0",
+  "description": "Langfuse Observability & Tracing for Antigravity CLI",
+  "author": {
+    "name": "Antigravity Pair"
+  },
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "langfuse",
+    "telemetry",
+    "tracing",
+    "observability"
+  ]
+}
